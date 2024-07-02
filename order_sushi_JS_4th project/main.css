@@ -1,0 +1,213 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-color: ghostwhite;
+    font-family: "Inter";
+}
+
+.welcome{
+    padding: 50px 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.logo{
+    margin-bottom: 10px;
+    width: 80px;
+    height: 80px;
+}
+
+.welcome-heading{
+    font-weight: 300;
+    font-size: 45px;
+    margin-bottom: 10px;
+}
+
+.welcome-text{
+    font-size: 20px;
+}
+
+.content{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 100px;
+}
+
+.row-1{
+    display: flex;
+    gap: 30px;
+    margin-bottom: 20px;
+}
+
+.row-2{
+    display: flex;
+    gap: 30px;
+}
+
+.client-order{
+    margin-left: 20px;
+    height: 360px;
+    width: 330px;
+    background-color: white;
+}
+
+.container{
+    margin-left: 15px;
+}
+
+.row-order{
+    border: solid gainsboro;
+    height: 177px;
+}
+
+.order-heading{ 
+    font-size: 17px;
+    font-weight: 600;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.empty{
+    border: solid gainsboro;
+    width: 300px;
+    height: 36px;
+    display: flex;
+    align-items: center;
+    background-color: gainsboro;
+    color: gray;
+    font-size: 14px;
+    border-radius: 5px;
+    margin-bottom: 15px;
+}
+
+.empty-text{
+    margin-left: 10px;
+}
+
+.total{
+    display: flex;
+    gap: 5px;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+.total-count{
+    color : orange;
+}
+
+.cart{
+    background-color: white;
+    height: 520px;
+    width: 350px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.cart-name{
+    font-size: 25px;
+    font-weight: 300;
+    margin-bottom: 25px;
+}
+
+.max-count{
+    font-weight: 300;
+    font-size: 13px;
+    opacity: 0.6;
+    margin-bottom: 20px;
+}
+
+.price-count{
+    width: 250px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.counter{
+    display: flex;
+    background-color: gainsboro;
+    width: 90px;
+    height: 25px;
+}
+
+.btn{
+    width: 25px;
+    height: 25px;
+    border: none;
+    background-color: gainsboro;
+    transition: background-color 0.3s;
+}
+
+.btn:hover{
+    background-color: ghostwhite;
+}
+
+.cnt{
+    width: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.weight{
+    font-size: 13px;
+    opacity: 0.6;
+    font-weight: 300;
+}
+
+.price{
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.in-cart{
+    border: solid orange;
+    width: 300px;
+    height: 35px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: orange;
+    font-size: 14px;
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+.in-cart:hover{
+    background-color:  orangered;
+    color : white;
+}
+
+.to-order{
+    margin: 15px 0px;
+    font-size: 20px;
+}
+
+.telnum{
+    height: 30px;
+    width: 300px;
+    margin-bottom: 15px;
+}
+
+a{
+    text-decoration: none;
+    color : white;
+}
+
+.orderbtn{
+    background-color: dodgerblue;
+    border: solid dodgerblue;
+    height: 35px;
+    width: 80px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+
